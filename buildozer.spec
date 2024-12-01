@@ -4,7 +4,7 @@
 title = Rassvet
 
 # (str) Package name
-package.name = rassvet
+package.name = Rassvet
 
 # (str) Package domain (needed for android/ios packaging)
 package.domain = org.wiseplat
