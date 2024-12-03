@@ -46,10 +46,10 @@ requirements = python3,kivy==2.0.0,kivymd,https://github.com/kivymd/KivyMD/archi
 presplash.filename = %(source.dir)s/data/logo/load.png
 
 # (str) Icon of the application
-icon.filename = %(source.dir)s/data/logo/icon_logo.png
+icon.filename = %(source.dir)s/data/logo/icon_logo.jpg
 
 # (str) Supported orientation (one of landscape, sensorLandscape, portrait or all)
-orientation = all
+orientation = portrait
 
 # (list) List of service to declare
 #services = NAME:ENTRYPOINT_TO_PY,NAME2:ENTRYPOINT2_TO_PY
@@ -226,7 +226,7 @@ fullscreen = 0
 #android.copy_libs = 1
 
 # (str) The Android arch to build for, choices: armeabi-v7a, arm64-v8a, x86, x86_64
-android.arch = armeabi-v7a
+android.arch = arm64-v8a
 
 # (int) overrides automatic versionCode computation (used in build.gradle)
 # this is not the same as app version and should only be edited if you know what you're doing
